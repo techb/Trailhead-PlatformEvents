@@ -35,3 +35,4 @@ Deliver custom notifications within the Salesforce platform and in external apps
   - `trigger TriggerName on Custom_Event__e (after insert) {`
 - Event triggers are run at System level and Asynchronously, and it's own execution process in Automated Process entity
 - Can't see Event Triggers debug log in dev console
+- Subscribe to Platform events in Flows, use the ***Pause Element***
