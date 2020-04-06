@@ -7,6 +7,8 @@ public with sharing class ExecAnon {
             News_Content__c='Lake Road is closed due to mudslides.'
         );
         // Call method to publish events
+        // To publish more than one event, add them to a list and pass the
+        // list to EventBus.publish()
         Database.SaveResult sr = EventBus.publish(newsEvent);
         // Inspect publishing result
         if (sr.isSuccess()){
