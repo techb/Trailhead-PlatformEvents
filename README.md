@@ -31,3 +31,5 @@ Deliver custom notifications within the Salesforce platform and in external apps
     }
     ```
 - You can publish an event in SOAP API through the create() call or in Bulk API using batch jobs
+- Use Triggers to subscribe to events. ***ONLY SUPPORTS `after insert`***
+  - `trigger TriggerName on Custom_Event__e (after insert) {`
